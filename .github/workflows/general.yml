@@ -3,7 +3,7 @@ name: General - Rust
 on:
   push:
     branches:
-      - root-chapter-03-part0
+      - main
   pull_request:
     types: [ opened, synchronize, reopened ]
     branches:
