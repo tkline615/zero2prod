@@ -1,8 +1,8 @@
 extern crate zero2prod;
 
+use env_logger::Env;
 use sqlx::PgPool;
 use std::net::TcpListener;
-use env_logger::Env;
 use zero2prod::configuration::get_configuration;
 use zero2prod::startup::run;
 
